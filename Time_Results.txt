@@ -1,0 +1,5 @@
+Time for Run 1: 0.028029
+Time for Run 2: 0.034443
+Time for Run 3: 0.040916
+
+Average Time for Bubble Sort DEC: 0.0344627
