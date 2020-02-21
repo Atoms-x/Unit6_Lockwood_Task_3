@@ -1,7 +1,7 @@
 /*
 	Teacher: Dr. Tyson McMillan, Ph.D. COSC 1436 
   STUDENT (McMillanite): Chet Lockwood
-  Unit_6_Task_6
+  Unit_6_Task_3
   IDE: Repl.it
 */
 
@@ -16,7 +16,7 @@ void bubbleSort(int array[], int);
 void printArray(int array[], int);
 void averageTime(double array[], int);
 
-//Main Functions ************************************************************************************************
+//Main Functions ***********************************************************************
 int main() 
 {
   int iterations = 0;
@@ -25,7 +25,7 @@ int main()
 
   while (iterations < 3)
   {
-  //Bubble Sort ASC method per Task 2 of Unit 6 Assingment
+  //Bubble Sort DEC method per Task 2 of Unit 6 Assingment
   bubbleSort(accountBalances, maxAccounts); //call sort function
   printArray(accountBalances, maxAccounts); //print Array
 
@@ -43,7 +43,9 @@ int main()
 
   return 0;
 }
+//Function Definitions ****************************************************************
 
+//Bubblesort function
 void bubbleSort(int array[], int SIZE)
 {
   for (int max = SIZE - 1; max > 0; max--)
@@ -57,7 +59,6 @@ void bubbleSort(int array[], int SIZE)
       }
     }
 }
-//Function Definitions ******************************************************************************************
 
 //Function to print the Array
 void printArray(int array[], int SIZE)
